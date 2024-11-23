@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contato - tio waldo</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="caixa">
+        <h1>
+          <img
+            src="./img/logo.img.jpg"
+            alt="Logo Da Barbearia Alura"
+            class="logo"
+          />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-contato">
+      <form
+        action="https://formsubmit.co/elisonschumacher30@gmail.com"
+        method="POST"
+      >
+        <label for="nomesobrenome">Nome e Sobrenome</label>
+        <input class="input-padrao" placeholder="" type="text" name="nome" />
+
+        <label for="telefone">Telefone</label>
+        <input
+          class="input-padrao"
+          placeholder="(xx)xxxxx-xxxx"
+          type="tel"
+          name="telefone"
+        />
+
+        <label for="">Mensagem</label>
+        <textarea class="input-padrao" placeholder="" name="info"></textarea>
+
+        <button class="button" onclick="sumirFormulario()">
+          Enviar e-mail
+        </button>
+      </form>
+
+      <div>
+        <h1>waldo ou <strong>Henrique</strong></h1>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda-feira</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Terça-feira</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Quarta-feira</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Quinta-feira</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Sexta-feira</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>8h ~ 20h</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <a
+        href="https://wa.me/5511999999999"
+        class="whatsapp-button"
+        target="_blank"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+          alt="WhatsApp Icon"
+          class="whatsapp-icon"
+          width="24"
+          height="24"
+        />
+        Enviar mensagem
+      </a>
+
+      <a
+        href="https://www.instagram.com/tio_waldo_90/"
+        class="instagram-button"
+        target="_blank"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+          alt="Instagram Icon"
+          class="instagram-icon"
+          width="24"
+          height="24"
+        />
+        Visitar Instagram
+      </a>
+    </main>
+
+    <footer>
+      <p class="copyright">&copy; Copyright Barbearia Tio Waldo - 2019</p>
+    </footer>
+  </body>
+</html>
